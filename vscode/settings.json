@@ -4,7 +4,6 @@
     "workbench.colorTheme": "Dracula",
     "git.confirmSync": false,
     "git.autofetch": true,
-    "codespaces.accountProvider": "GitHub",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.tabSize": 2
