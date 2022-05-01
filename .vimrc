@@ -1,24 +1,12 @@
 set nocompatible
 filetype off
 
-
-" Set up pathogen
-execute pathogen#infect()
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-
-" Vundle
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
-
-call vundle#end() 
-
 "Text editor
 set shiftwidth=2
 set expandtab
 set tabstop=2
 filetype plugin indent on
+syntax on
 
 "Numbering in Vim
 set ruler
@@ -33,19 +21,8 @@ let g:NERDTreeNodeDelimiter = "\u00a0"
 
 set backspace=indent,eol,start
 
-" Settings for NERD Commenter
-let g:NERDSpaceDelims = 1
-"let g:NERDCommentEmptyLines = 1
-" let g:NERDTrimTrailingWhitespace = 1
-let g:NERDDefaultAlign = 'left'
+" Colorscheme
+set background=dark
 
 set colorcolumn=80
 
-"" Colorscheme
-syntax enable
-packadd! dracula
-colorscheme dracula
-
-"Enable syntax for Solarized
-" set background=dark
-" colorscheme solarized
