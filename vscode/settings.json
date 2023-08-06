@@ -1,10 +1,27 @@
 {
-    "telemetry.enableCrashReporter": false,
-    "terminal.integrated.fontFamily": "'Ubuntu Mono', 'PowerlineSymbols'",
-    "workbench.colorTheme": "Dracula",
-    "git.confirmSync": false,
-    "git.autofetch": true,
+    "debug.console.fontFamily": "Noto Mono for Powerline",
+
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.fontFamily": "Noto Mono for Powerline, Menlo, Monaco, 'Courier New', monospace",
+    "editor.inlineSuggest.enabled": true,
+    "editor.snippetSuggestions": "top",
+    "editor.suggest.preview": true,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.suggest.showMethods": true,
     "editor.tabSize": 2
+
+    "git.autofetch": true,
+    "git.confirmSync": false,
+
+    "scm.inputFontFamily": "Noto Mono for Powerline",
+
+    "telemetry.enableCrashReporter": false,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.fontFamily": "Noto Mono for Powerline",
+
+    "workbench.colorTheme": "Dracula",
+    "workbench.startupEditor": "none",
+    "workbench.tree.indent": 15,
+
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 }
