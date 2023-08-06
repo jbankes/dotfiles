@@ -8,10 +8,11 @@
     "editor.suggest.preview": true,
     "editor.suggestSelection": "first",
     "editor.suggest.showMethods": true,
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
 
     "git.autofetch": true,
     "git.confirmSync": false,
+    "git.enableCommitSigning": true,
 
     "scm.inputFontFamily": "Noto Mono for Powerline",
 
@@ -19,9 +20,8 @@
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.fontFamily": "Noto Mono for Powerline",
 
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "Nord",
     "workbench.startupEditor": "none",
-    "workbench.tree.indent": 15,
-
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.tree.indent": 15
 }
+

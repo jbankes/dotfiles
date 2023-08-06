@@ -1,9 +1,17 @@
 cask_args appdir: "/Applications"
 tap "homebrew/cask"
+tap "homebrew/bundle"
 
 # casks
+cask "discord"
+cask "docker"
+cask "expressvpn"
+cask "google-chrome"
+cask "lastpass"
 cask "spotify"
+cask "steam"
 cask "visual-studio-code"
+cask "zoom"
 
 # brews
 brew "act"
@@ -21,4 +29,12 @@ brew "tmux"
 brew "tree"
 brew "vim"
 brew "wget"
+
+# vscode plugins
+vscode "arcticicestudio.nord-visual-studio-code"
+vscode "dracula-theme.theme-dracula"
+vscode "GitHub.codespaces"
+vscode "ms-vscode-remote.remote-containers"
+vscode "vscodevim.vim"
+vscode "yzane.markdown-pdf"
 

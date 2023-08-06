@@ -23,6 +23,9 @@ set backspace=indent,eol,start
 
 " Colorscheme
 set background=dark
+packadd! dracula
+syntax enable
+colorscheme dracula
 
 set colorcolumn=80
 
