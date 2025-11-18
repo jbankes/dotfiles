@@ -1,27 +1,82 @@
 {
-    "debug.console.fontFamily": "Noto Mono for Powerline",
-
-    "editor.acceptSuggestionOnEnter": "on",
-    "editor.fontFamily": "Noto Mono for Powerline, Menlo, Monaco, 'Courier New', monospace",
-    "editor.inlineSuggest.enabled": true,
-    "editor.snippetSuggestions": "top",
-    "editor.suggest.preview": true,
-    "editor.suggestSelection": "first",
     "editor.suggest.showMethods": true,
-    "editor.tabSize": 2,
-
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "git.enableCommitSigning": true,
-
-    "scm.inputFontFamily": "Noto Mono for Powerline",
-
-    "telemetry.enableCrashReporter": false,
-    "terminal.integrated.defaultProfile.linux": "zsh",
-    "terminal.integrated.fontFamily": "Noto Mono for Powerline",
-
+    "editor.suggest.preview": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.snippetSuggestions": "top",
     "workbench.colorTheme": "Nord",
     "workbench.startupEditor": "none",
-    "workbench.tree.indent": 15
+    "redhat.telemetry.enabled": false,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "editor.tabSize": 2,
+    "git.confirmSync": false,
+    "git.enableCommitSigning": true,
+    "terminal.integrated.fontFamily": "NotoMono Nerd Font",
+    "editor.fontFamily": "Noto Mono for Powerline, Menlo, Monaco, 'Courier New', monospace",
+    "debug.console.fontFamily": "Noto Mono for Powerline",
+    "scm.inputFontFamily": "Noto Mono for Powerline",
+    "workbench.tree.indent": 15,
+    "workbench.iconTheme": "material-icon-theme",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "git.fetchOnPull": true,
+    "git.pruneOnFetch": true,
+    "[yaml]": {
+        "diffEditor.ignoreTrimWhitespace": false
+    },
+    "docker.extension.enableComposeLanguageServer": false,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1"
 }
-
